@@ -27,7 +27,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.Explorer(
+	mapFn: (node) => {
+	    if (node.isFolder){ node.displayName = "🖿" + node.displayName },
+	},
+    ),
   ],
   right: [
     Component.Graph(),

@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Csongor's Notes",
+    pageTitle: "📚 Csongor's Notes",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -67,7 +67,7 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
-      Plugin.GitHubFlavoredMarkdown(),
+      /* Plugin.GitHubFlavoredMarkdown(), */
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
