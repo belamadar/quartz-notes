@@ -1,6 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: Maths Notes
 ---
 
-This is my first note
-Why is it not working?
+I started this page to digitalise my Elementary Number Theory notes, but hopefully I will be able to include other notes here later on too.
