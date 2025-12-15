@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-UK",
+    locale: "en-GB",
     baseUrl: "notes.bikki.eu",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
