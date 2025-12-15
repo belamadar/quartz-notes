@@ -1,6 +1,9 @@
 We use $\mathbb{Z} :=\{..., -3, -2, -1, 0, 1, 2, 3, ...\}$ for **integers**.
+
 We use $\mathbb{N} := \{1, 2, 3, ... \}$ for **natural numbers**.
+
 We use $\mathbb{N}_0 := \{0, 1, 2, ...\}$ for **non-negative integers**.
+
 We use $\mathbb{Z} \setminus \mathbb{N}_0 := \{-1, -2, -3, ...\}$ for **negative integers**.
 # Remark 1.1 - Axiom of induction
 Let $K \subseteq \mathbb{N}_{0}$ such that
@@ -27,12 +30,14 @@ We call
 2. the **Induction Step**
 
 where the assumption is that $n \in S$ for some $n \ge n_0$ is called **Induction Hypothesis**.
-# Example 1.4
-## (1) 
+# Example 1.4.1
 We claim that $$ \sum_{i=1}^n i = \frac{n(n+1)}{2}, \forall n \in \mathbb{Z}$$
 Let $S$ be all those integers $n \ge 1$ for which the statement holds. As the base case we show that $1 \in S$.
+
 Let $n = 1$. Then $\sum_{i=1}^1 i = \frac{1(1+1)}{2} = 1$.
+
 Thus $1 \in S$.
+
 As the induction hypothesis we assume $n \in S$ for some $n \ge 1$. As the induction step we wish to know that $n + 1 \in S$, that is 
 $$ 
 \sum_{i=1}^n i = \frac{(n+1)(n+2)}{2}
