@@ -18,7 +18,7 @@ If $z = a+ib$, then the **conjugate** of z, denoted $\overline z$ is $a-ib$.
 ### Definition 1.3
 The **modulus** of $z = a+ib$, denoted $|z|$ is $|z| = \sqrt{a^2 + b^2}$. 
 ##### Remark:
-$|z|$ is the distance of $z$ from $0$ in the Argard diagram (by Pythagoras).
+$|z|$ is the distance of $z$ from $0$ in the Argand diagram (by Pythagoras).
 
 ### Lemma 1.4
 $z \overline{z} = |z^2|$ 
@@ -34,9 +34,10 @@ $$
 $$
 \begin{align}
 &\text{What is } \frac{z}{w} \text{, where } z,w\in \mathbb{C}, w \neq 0? \\
-&\text{Starting with the equation } \frac{\overline w}{\overline w} = 1 \\
+&\text{Starting with the equation } \\
+&\frac{\overline w}{\overline w} = 1 \\
 &\text{we have} \\
 &\frac{z}{w} = \frac{z}{w} \times 1 = \frac{z \overline{w}}{w \overline{w}} = \frac{z \overline{w}}{|w|^2} \\
-\boxed{&\therefore \frac{z}{w} = \frac{z \overline{w}}{|w|^2}}
+&\boxed{\therefore \frac{z}{w} = \frac{z \overline{w}}{|w|^2}}
 \end{align} 
 $$
